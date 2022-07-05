@@ -10,7 +10,8 @@
     "test": "jest",
     "lint": "eslint src/ --ext .ts",
     "build": "tsc --build",
-    "clean": "tsc --build --clean"
+    "clean": "tsc --build --clean",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
